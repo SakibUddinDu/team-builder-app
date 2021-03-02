@@ -1,0 +1,10 @@
+.player {
+  margin-left: 125px;
+  border-bottom: 1px solid lightgray;
+}
+/* .playerInfo {
+  margin-left: 50px;
+} */
+.salary {
+  color: lime;
+}
