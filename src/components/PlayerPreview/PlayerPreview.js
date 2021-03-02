@@ -6,9 +6,6 @@ const PlayerPreview = (props) => {
     console.log(props)
     const playerCount =props.playerCount;
     const {name} =props.playerCount;
-    // const [playerName, setPlayerName] = useState([])''
-
-    // console.log(playerCount);
 
     const totalBudget =playerCount.reduce((total, player) => total + player.salary, 0)
     return (
